@@ -103,3 +103,6 @@ Optional:
  - (Read/GET) Query logged in user object
 - (Update/PUT) Update user profile image
 
+Progress So Far - Sprint 1
+* Users register to new account (Email, Facebook)
+* Users logs in to access account
