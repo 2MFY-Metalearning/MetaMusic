@@ -103,6 +103,12 @@
 		B6FF6B6627383AE600931733 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				DB1D0D0F2761DDE20090F1F4 /* ViewModels */,
+				DB1D0D112761DE1E0090F1F4 /* Resources */,
+				DB1D0D102761DE100090F1F4 /* Managers */,
+				DB1D0D0E2761DDD10090F1F4 /* Models */,
+				DB1D0D0D2761DDB80090F1F4 /* View */,
+				DB1D0D0C2761DD970090F1F4 /* Controllers */,
 				B6FF6B6727383AE600931733 /* AppDelegate.swift */,
 				B6FF6B6927383AE600931733 /* SceneDelegate.swift */,
 				B6FF6B6B27383AE600931733 /* ViewController.swift */,
@@ -132,6 +138,48 @@
 				B6FF6B8B27383AF100931733 /* Info.plist */,
 			);
 			path = MusicUITests;
+			sourceTree = "<group>";
+		};
+		DB1D0D0C2761DD970090F1F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB1D0D0D2761DDB80090F1F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB1D0D0E2761DDD10090F1F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB1D0D0F2761DDE20090F1F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DB1D0D102761DE100090F1F4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DB1D0D112761DE1E0090F1F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
