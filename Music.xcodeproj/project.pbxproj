@@ -15,7 +15,6 @@
 		B6FF6B6F27383AE600931733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FF6B6D27383AE600931733 /* Main.storyboard */; };
 		B6FF6B7127383AEF00931733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FF6B7027383AEF00931733 /* Assets.xcassets */; };
 		B6FF6B7427383AEF00931733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FF6B7227383AEF00931733 /* LaunchScreen.storyboard */; };
-		B6FF6B7F27383AF000931733 /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF6B7E27383AF000931733 /* MusicTests.swift */; };
 		B6FF6B8A27383AF100931733 /* MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF6B8927383AF100931733 /* MusicUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +47,6 @@
 		B6FF6B7327383AEF00931733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6FF6B7527383AEF00931733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6FF6B7A27383AF000931733 /* MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6FF6B7E27383AF000931733 /* MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTests.swift; sourceTree = "<group>"; };
-		B6FF6B8027383AF000931733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6FF6B8527383AF100931733 /* MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FF6B8927383AF100931733 /* MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITests.swift; sourceTree = "<group>"; };
 		B6FF6B8B27383AF100931733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				B6FF6B6627383AE600931733 /* Music */,
-				B6FF6B7D27383AF000931733 /* MusicTests */,
 				B6FF6B8827383AF100931733 /* MusicUITests */,
 				B6FF6B6527383AE600931733 /* Products */,
 			);
@@ -103,6 +99,12 @@
 		B6FF6B6627383AE600931733 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				DB1D0D0F2761DDE20090F1F4 /* ViewModels */,
+				DB1D0D112761DE1E0090F1F4 /* Resources */,
+				DB1D0D102761DE100090F1F4 /* Managers */,
+				DB1D0D0E2761DDD10090F1F4 /* Models */,
+				DB1D0D0D2761DDB80090F1F4 /* View */,
+				DB1D0D0C2761DD970090F1F4 /* Controllers */,
 				B6FF6B6727383AE600931733 /* AppDelegate.swift */,
 				B6FF6B6927383AE600931733 /* SceneDelegate.swift */,
 				B6FF6B6B27383AE600931733 /* ViewController.swift */,
@@ -116,15 +118,6 @@
 			path = Music;
 			sourceTree = "<group>";
 		};
-		B6FF6B7D27383AF000931733 /* MusicTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6FF6B7E27383AF000931733 /* MusicTests.swift */,
-				B6FF6B8027383AF000931733 /* Info.plist */,
-			);
-			path = MusicTests;
-			sourceTree = "<group>";
-		};
 		B6FF6B8827383AF100931733 /* MusicUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +125,48 @@
 				B6FF6B8B27383AF100931733 /* Info.plist */,
 			);
 			path = MusicUITests;
+			sourceTree = "<group>";
+		};
+		DB1D0D0C2761DD970090F1F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB1D0D0D2761DDB80090F1F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB1D0D0E2761DDD10090F1F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB1D0D0F2761DDE20090F1F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DB1D0D102761DE100090F1F4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DB1D0D112761DE1E0090F1F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6FF6B7F27383AF000931733 /* MusicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

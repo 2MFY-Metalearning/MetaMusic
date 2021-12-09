@@ -94,6 +94,9 @@ Optional:
 -Home Feed Screen
   - (Read/Get) Query all posts where user is author
   - (Create/POS) create a new like on a post 
+
+
+
   - (Delete) Delete existing like
 
 -Create Event Screen
@@ -103,3 +106,10 @@ Optional:
  - (Read/GET) Query logged in user object
 - (Update/PUT) Update user profile image
 
+Progress So Far - Sprint 1
+* Users register to new account (Email, Facebook)
+* Users logs in to access account
+
+
+### login
+<img src='https://media.giphy.com/media/oXv1sFtZKZHBcCtUfZ/giphy.gif' width= 250> <br>
