@@ -107,7 +107,7 @@ Optional:
 - (Update/PUT) Update user profile image
 
 Progress So Far - Sprint 1
-* Users register to new account (Email, Facebook)
+* Users register to new account e.g. E-mail
 * Users logs in to access account
 
 
