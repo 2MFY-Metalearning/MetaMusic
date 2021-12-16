@@ -113,5 +113,5 @@ Progress So Far - Sprint 1
 
 ### login
 <img src='https://media.giphy.com/media/oXv1sFtZKZHBcCtUfZ/giphy.gif' width= 250> <br>
-## play music and turn sound up and down
+## play music and volume of the sound up and down
 <img src='https://media.giphy.com/media/p4idQziuR73UpEgUUK/giphy.gif' width= 250> <br>
